@@ -17,18 +17,19 @@ public class StyWord {
     }
 
     public static char cntAlp(String word){
-        // 총 알파벳 26;
         int A = 65;
+        // 총 알파벳 26;
         int [] cnt = new int[26];
         int max = 0;
         char result = '?';
         for(int i = 0; i < word.length(); i++){
             int tmp = word.charAt(i);
-            cnt[(tmp - A)]++;
-            if(max < cnt[tmp - A]){
-                max = cnt[tmp - A];
+            int index = tmp - A;
+            cnt[index]++;
+            if(max < cnt[index]){
+                max = cnt[index];
                 result =  word.charAt(i);
-            }else if(max == cnt[tmp-A]){
+            }else if(max == cnt[index]){
                 result = '?';
             }
         }
