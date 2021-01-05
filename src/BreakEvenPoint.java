@@ -11,7 +11,7 @@ import java.util.Scanner;
 A, B, C가 주어졌을 때, 손익분기점을 구하는 프로그램을 작성하시오.
 입력 : 첫째 줄에 A, B, C가 빈 칸을 사이에 두고 순서대로 주어진다. A, B, C는 21억 이하의 자연수이다.
 출력 : 첫 번째 줄에 손익분기점 즉 최초로 이익이 발생하는 판매량을 출력한다. 손익분기점이 존재하지 않으면 -1을 출력한다.
- */
+*/
 public class BreakEvenPoint {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
