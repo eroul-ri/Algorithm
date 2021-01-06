@@ -1,4 +1,4 @@
-BAECK JOON
+BAEK JOON
 ==
 https://www.acmicpc.net
 ````````````````````````
