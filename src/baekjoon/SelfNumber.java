@@ -1,3 +1,5 @@
+package baekjoon;
+
 /*
 백준 4673
 셀프 넘버

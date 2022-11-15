@@ -1,3 +1,5 @@
+package baekjoon;
+
 /*
 백준 10171
 고양이 출력

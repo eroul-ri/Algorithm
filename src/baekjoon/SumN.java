@@ -1,3 +1,4 @@
+package baekjoon;
 
 /*
 백준 15596
